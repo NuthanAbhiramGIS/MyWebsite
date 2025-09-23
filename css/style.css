@@ -6,7 +6,7 @@ body, ul, li, h1, h2, h3, p {
 
 body {
   font-family: Arial, sans-serif;
-  background: #000; /* black background */
+  background: indigo; /* black background */
   color: #ffffff;   /* white text */
   line-height: 1.6;
 }

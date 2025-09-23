@@ -59,20 +59,24 @@ body {
 /* Homepage images section */
 .header ul {
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-between; /* spread evenly */
+  gap: 30px;                      /* space between images */
   list-style: none;
-  padding: 40px 0;
+  padding: 40px 5%;
   margin: 0;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
 }
 
 .header li {
+  flex: 1 1 30%;        /* each takes about 1/3 width */
+  max-width: 400px;     /* optional max width */
   text-align: center;
 }
 
 .header li img {
-  width: 250px;
-  height: auto;
+  width: 100%;          /* stretch across li */
+  height: 250px;        /* fixed equal height */
+  object-fit: cover;    /* crops while keeping proportions */
   border-radius: 8px;
   display: block;
   margin-bottom: 10px;
@@ -145,12 +149,23 @@ body {
 }
 
 /* Responsive design */
+@media (max-width: 1024px) {
+  .header ul {
+    justify-content: center;
+  }
+  .header li {
+    flex: 1 1 45%; /* two per row on medium screens */
+  }
+}
+
 @media (max-width: 768px) {
   .header ul {
     flex-direction: column;
     gap: 20px;
   }
-
+  .header li {
+    flex: 1 1 100%; /* one per row on small screens */
+  }
   #header ul {
     flex-direction: column;
     gap: 10px;

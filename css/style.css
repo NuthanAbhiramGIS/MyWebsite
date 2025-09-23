@@ -20,10 +20,6 @@ body {
   background: #000;
 }
 
-#header .logo img {
-  height: 60px;
-}
-
 #header ul {
   display: flex;
   list-style: none;

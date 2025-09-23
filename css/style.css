@@ -6,7 +6,7 @@ body, ul, li, h1, h2, h3, p {
 
 body {
   font-family: Arial, sans-serif;
-  background: darkcyan; /* black background */
+  background: rgb(3, 90, 90); /* black background */
   color: #ffffff;   /* white text */
   line-height: 1.6;
 }
@@ -24,7 +24,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background: #000;
+  background: #071827;
 }
 
 #header ul {

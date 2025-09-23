@@ -11,6 +11,13 @@ body {
   line-height: 1.6;
 }
 
+hr {
+  border: none;
+  height: 2px;
+  background: #fff; /* white line (works on black background) */
+  margin: 40px 0;   /* space around line */
+}
+
 /* Header */
 #header {
   display: flex;

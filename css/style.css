@@ -43,7 +43,7 @@ hr {
 }
 
 #header ul li a:hover {
-  background: #c1c5ca;
+  background: transparent;
   color: #000;
 }
 

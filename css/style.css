@@ -97,69 +97,117 @@ body {
   margin-bottom: 20px;
 }
 
-/* Footer sections */
-.footer {
-  display: flex;
-  justify-content: space-around;
-  padding: 30px 20px;
-  background: #ffffff; /* white background for footer */
+/* Footer styling */
+.site-footer {
+  background-color: #ffffff; 
+  color: #000000;
+  padding: 50px 20px 20px 20px;
+  font-family: Arial, sans-serif;
+  border-top: 2px solid #ccc;
 }
 
-.footer h3 a {
-  color: #000000; /* black text for footer */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  min-width: 250px;
+  text-align: center;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #000;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-section p, 
+.footer-section ul, 
+.footer-section li {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #000;
+}
+
+.footer-section a {
+  color: #000;
   text-decoration: none;
 }
 
-.footer ul {
+.footer-section a:hover {
+  color: #ffcc00; /* optional hover effect */
+}
+
+.footer-section ul {
   list-style: none;
   padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+/* Contact icons */
+.contact-icons .icons {
   display: flex;
-  gap: 15px;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
 }
 
-.footer ul li a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 20px;
+.contact-icons .icons a img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
 }
 
-.footer ul li a:hover {
-  color: #555555;
+.contact-icons .icons a img:hover {
+  transform: scale(1.2); /* subtle zoom effect on hover */
 }
 
-/* ---------------- Contact Page Specific ---------------- */
-/* Separate container so footer and header unaffected */
-.contact-container {
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+/* Contact page specific styling */
+#body.content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 70vh; /* vertical center */
+  min-height: 70vh; /* center vertically on page */
   flex-direction: column;
   gap: 25px;
   text-align: center;
 }
 
-/* Individual contact items */
-.contact-container .contact-item {
+#body.content-wrapper h2 {
+  font-size: 20px;
   display: flex;
   align-items: center;
-  gap: 15px; /* space between icon and text */
+  gap: 12px; /* space between icon and text */
+}
+
+#body.content-wrapper a {
+  color: #ffffff;
+  text-decoration: none;
   font-size: 18px;
 }
 
-.contact-container .contact-item img {
-  width: 30px; /* icon size */
-  height: auto;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.contact-container .contact-item a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.contact-container .contact-item a:hover {
+#body.content-wrapper a:hover {
   text-decoration: underline;
 }
 
@@ -170,6 +218,14 @@ body {
   }
   .header li {
     flex: 1 1 45%; /* two per row on medium screens */
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-section {
+    margin-bottom: 20px;
   }
 }
 

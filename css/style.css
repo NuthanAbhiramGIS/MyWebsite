@@ -101,7 +101,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Footer sections */
+/* Footer sections (removed #footer) */
 .footer {
   display: flex;
   justify-content: space-around;
@@ -128,24 +128,29 @@ body {
   text-decoration: none;
 }
 
-#footer {
-  text-align: center;
-  padding: 15px;
-  background: #000;
-  color: #777;
+/* Contact page icons and links */
+.content h2 {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
 }
 
-#footer ul {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  list-style: none;
-  margin-bottom: 10px;
+.content h2 img {
+    width: 24px;       /* icon size */
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
-#footer ul li a {
-  color: #ffffff;
-  text-decoration: none;
+.content a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive design */

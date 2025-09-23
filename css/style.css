@@ -97,7 +97,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Footer sections (removed #footer) */
+/* Footer sections */
 .footer {
   display: flex;
   justify-content: space-around;
@@ -125,24 +125,28 @@ body {
 }
 
 /* Contact page icons and links */
+.content {
+    display: flex;
+    flex-direction: column;   /* stack vertically */
+    align-items: center;      /* center horizontally */
+    justify-content: center;  /* center vertically if needed */
+    min-height: 60vh;         /* optional: center vertically on page */
+    gap: 25px;                /* space between each contact item */
+}
+
 .content h2 {
-    font-size: 18px;
-    margin: 15px 0;
+    font-size: 20px;
+    margin: 0;
     color: #ffffff;
     display: flex;
     align-items: center;
-}
-
-.content h2 img {
-    width: 24px;       /* icon size */
-    height: auto;
-    margin-right: 10px;
-    vertical-align: middle;
+    gap: 12px;               /* space between icon and text */
 }
 
 .content a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .content a:hover {

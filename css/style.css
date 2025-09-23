@@ -1,4 +1,4 @@
-/* Website Template - Optimized */
+/* Website Template - Corrected for Homepage */
 
 /* Body */
 body {
@@ -55,10 +55,24 @@ body {
 	text-transform: uppercase;
 	transition: background 0.3s, color 0.3s;
 }
-#header ul li a:hover,
-#header ul li.selected a {
-	background: #ffffff;
+
+/* Hover effect for all menu items */
+#header ul li a:hover {
+	color: #000000;       /* text color on hover */
+	background: #ffffff;  /* white background on hover */
+}
+
+/* Selected/current page */
+/* Keep homepage specific style unchanged */
+#header ul li.selected a.home {
+	color: #4c4d3d;        /* homepage text color as before */
+	background: #e5e5e5;   /* homepage background as before */
+}
+
+/* For other pages, selected item stays white */
+#header ul li.selected a:not(.home) {
 	color: #000000;
+	background: #ffffff;
 }
 
 /* Body content */

@@ -50,12 +50,12 @@ hr {
 /* Keep homepage link as original */
 #header ul li.selected a.home {
   background: transparent;
-  color: #ffffff;
+  /*color: #ffffff;
 }
 
 /* Selected menu item (other pages) */
 #header ul li.selected a:not(.home) {
-  background: #ffffff;
+  background: #d2dde6;
   color: #000;
 }
 

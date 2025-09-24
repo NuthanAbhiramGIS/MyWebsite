@@ -15,7 +15,7 @@ body {
 /* Visually appealing headings and paragraphs with larger size */
 h1 {
   font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 3.5em;            /* Increased font size */
+  font-size: 3em;            /* Increased font size */
   font-weight: 700;
   letter-spacing: 2px;
   margin-top: 30px;
@@ -26,7 +26,7 @@ h1 {
 
 h2 {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 2.7em;            /* Increased font size */
+  font-size: 2.2em;            /* Increased font size */
   font-weight: 600;
   letter-spacing: 1.5px;
   margin-top: 25px;
@@ -37,7 +37,7 @@ h2 {
 
 h3 {
   font-family: 'Nunito', Arial, sans-serif;
-  font-size: 2em;              /* Increased font size */
+  font-size: 1.5em;              /* Increased font size */
   font-weight: 700;
   letter-spacing: 1px;
   margin-top: 20px;
@@ -48,7 +48,7 @@ h3 {
 
 p {
   font-family: 'Nunito', Arial, sans-serif;
-  font-size: 1.5em;           /* Increased font size */
+  font-size: 1em;           /* Increased font size */
   font-weight: 400;
   letter-spacing: 0.2px;
   margin-top: 18px;

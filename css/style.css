@@ -42,13 +42,13 @@ hr {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Hover effect (no background, only text color) */
+/* Hover effect: no background, just text color change */
 #header ul li a:hover {
   background: transparent;
   color: #000;
 }
 
-/* Selected menu item (active page, including home) */
+/* Selected (active) page: white background */
 #header ul li.selected a {
   background: #d2dde6;
   color: #000;

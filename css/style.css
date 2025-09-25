@@ -217,10 +217,13 @@ hr {
 .footer-section ul {
   list-style: none;
   padding: 0;
+  display: flex;             /* Make items go side by side */
+  justify-content: center;   /* Center them horizontally */
+  gap: 20px;                 /* Add spacing between links */
 }
 
 .footer-section ul li {
-  margin-bottom: 10px;
+  margin: 0;
 }
 
 .contact-icons .icons {

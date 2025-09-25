@@ -201,8 +201,9 @@ hr {
 .footer-section ul,
 .footer-section li {
   font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.8;
-  color: #000;
+  color: #4709b9;
 }
 
 .footer-section a {

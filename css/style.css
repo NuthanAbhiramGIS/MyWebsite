@@ -82,11 +82,19 @@ hr {
 }
 
 #header {
+  width: 100vw;              /* Make header full viewport width */
+  position: relative;        /* Ensure it stays in flow */
+  left: 50%;                 /* For centering trick */
+  right: 50%;
+  margin-left: -50vw;        /* Stretch header to full width */
+  margin-right: -50vw;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
   background: rgb(120, 158, 158);
+
 }
 
 #header ul {

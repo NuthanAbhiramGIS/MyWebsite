@@ -87,13 +87,14 @@ hr {
   align-items: center;
   padding: 15px 40px;
   background: rgb(120, 158, 158);
-  width: 100%;
+  box-sizing: border-box;
 }
 
 #header ul {
   display: flex;
   list-style: none;
   gap: 25px;
+  justify-content: center;
 }
 
 #header ul li a {

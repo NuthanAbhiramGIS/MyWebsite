@@ -82,7 +82,7 @@ hr {
 }
 
 #header {
-  display: flex;
+  display: center;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
@@ -90,7 +90,7 @@ hr {
 }
 
 #header ul {
-  display: flex;
+  display: center;
   list-style: none;
   gap: 25px;
 }

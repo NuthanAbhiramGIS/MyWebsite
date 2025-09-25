@@ -87,6 +87,7 @@ hr {
   align-items: center;
   padding: 15px 40px;
   background: rgb(120, 158, 158);
+  width: 100%;
 }
 
 #header ul {

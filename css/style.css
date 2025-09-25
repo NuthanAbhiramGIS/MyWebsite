@@ -87,6 +87,9 @@ hr {
   align-items: center;
   padding: 15px 40px;
   background: rgb(120, 158, 158);
+  width: 100vw;
+  margin-left: -10%;
+  margin-right: -10%;
   box-sizing: border-box;
 }
 

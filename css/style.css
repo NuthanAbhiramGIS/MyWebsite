@@ -1,7 +1,9 @@
 /* General reset */
 body, ul, li, h1, h2, h3, p {
   margin: 0;
-  padding: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+
 }
 
 body {

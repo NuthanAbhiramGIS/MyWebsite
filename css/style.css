@@ -82,7 +82,7 @@ hr {
 }
 
 #header {
-  display: center;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
@@ -90,7 +90,7 @@ hr {
 }
 
 #header ul {
-  display: center;
+  display: flex;
   list-style: none;
   gap: 25px;
 }
@@ -105,7 +105,7 @@ hr {
 }
 
 #header ul li a:hover {
-  background: transparent;
+  background: whitesmoke;
   color: #000;
 }
 

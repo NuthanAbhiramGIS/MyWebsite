@@ -92,7 +92,6 @@ hr {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  
   padding: 15px 40px;
   background: rgb(120, 158, 158);
 
@@ -102,7 +101,10 @@ hr {
   display: flex;
   list-style: none;
   gap: 25px;
-  justify-content: center;
+  justify-content: center; /* horizontal centering */
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 #header ul li a {

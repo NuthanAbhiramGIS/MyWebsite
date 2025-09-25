@@ -89,7 +89,6 @@ hr {
   background: rgb(120, 158, 158);
   width: 100vw;
   margin-left: -10%;
-
   box-sizing: border-box;
 }
 
@@ -111,11 +110,6 @@ hr {
 
 #header ul li a:hover {
   background: whitesmoke;
-  color: #000;
-}
-
-#header ul li.selected a {
-  background: #d2dde6;
   color: #000;
 }
 

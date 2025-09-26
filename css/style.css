@@ -157,7 +157,7 @@ hr {
 
 /* Footer */
 .site-footer {
-  background-color: #ffffff;
+  background-color: #7a0606;
   color: #000000;
   padding: 50px 20px 20px 20px;
   font-family: Arial, sans-serif;
@@ -203,7 +203,7 @@ hr {
 }
 
 .footer-section a:hover {
-  color: #ffcc00;
+  color: #e0ded5;
 }
 
 .footer-section ul {

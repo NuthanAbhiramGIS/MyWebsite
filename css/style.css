@@ -356,30 +356,12 @@ hr {
 }
 
 /* --- First Project Side Media Styles --- */
-.projects-container {
-  display: flex;
-  align-items: flex-start;
-  gap: 30px;
-  margin-bottom: 40px;
-  text-align: left;
-  align-items: center;
-}
-
-.projects-container .projects-text {
-  flex: 2;
-}
-
-.projects-container .projects-media {
-  flex: 1;
-}
-
-.projects-container .projects-media img,
-.projects-container .projects-media video {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  padding: 20px 0;
+.projects-text video {
+    display: block;         /* makes it a block element */
+    margin: 20px auto;      /* centers horizontally and adds spacing top/bottom */
+    max-width: 100%;        /* responsive */
+    height: auto;           /* maintains aspect ratio */
+    border-radius: 8px;
 }
 
 /* Responsive: Stack on small screens */

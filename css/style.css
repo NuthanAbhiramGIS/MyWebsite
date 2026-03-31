@@ -362,6 +362,7 @@ hr {
   gap: 30px;
   margin-bottom: 40px;
   text-align: left;
+  align-items: center;
 }
 
 .projects-container .projects-text {
@@ -374,10 +375,11 @@ hr {
 
 .projects-container .projects-media img,
 .projects-container .projects-media video {
+  max-width: 400px;
   width: 100%;
   height: auto;
   border-radius: 8px;
-  display: block;
+  padding: 20px 0;
 }
 
 /* Responsive: Stack on small screens */

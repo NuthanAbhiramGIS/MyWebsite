@@ -96,15 +96,16 @@ hr {
   justify-content: space-between;
   padding: 15px 40px;
 
-  /* Subtle pattern / texture added */
-  background: #5a5f3d;
-  background-image: repeating-linear-gradient(
-    45deg,
-    rgba(255,255,255,0.05),
-    rgba(255,255,255,0.05) 1px,
-    transparent 1px,
-    transparent 4px
-  );
+  /* Animated gradient background */
+  background: linear-gradient(270deg, #5a5f3d, #2B9348, #80B918, #5a5f3d);
+  background-size: 800% 800%;
+  animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 #header ul {

@@ -359,7 +359,7 @@ hr {
 .projects-text video {
     display: block;         /* makes it a block element */
     margin: 20px auto;      /* centers horizontally and adds spacing top/bottom */
-    max-width: 100%;        /* responsive */
+    max-width: 80%;        /* responsive */
     height: auto;           /* maintains aspect ratio */
     border-radius: 8px;
 }

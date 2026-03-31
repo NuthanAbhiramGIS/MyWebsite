@@ -158,6 +158,14 @@ hr {
   border-radius: 8px;
   display: block;
   margin-bottom: 10px;
+
+  /* Animation class applied to all header images */
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.header li img:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 .header li a {
@@ -379,5 +387,15 @@ hr {
   .projects-container {
     flex-direction: column;
     gap: 20px;
-  }
+}
+
+/* ===== Image Animation Class (added) ===== */
+.animated-img {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  border-radius: 8px;
+}
+
+.animated-img:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }

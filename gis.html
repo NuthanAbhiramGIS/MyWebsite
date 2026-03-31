@@ -5,36 +5,26 @@
 	<meta charset="UTF-8">
 	<title>Programs - Academy Website Template</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">    <script src="https://cdn.counter.dev/script.js" data-id="a0eb3360-a44a-4be7-8b53-fcacb7674baf" data-utcoffset="-4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">    
+    <script src="https://cdn.counter.dev/script.js" data-id="a0eb3360-a44a-4be7-8b53-fcacb7674baf" data-utcoffset="-4"></script>
 </head>
 <body>
 	<div id="header">
 		<a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
 		<ul>
-			<li class="selected">
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="resume.html">Resume</a>
-			</li>
-			<li>
-				<a href="agriculture.html">Agriculture</a>
-			</li>
-			<li>
-				<a href="gis.html">GIS</a>
-			</li>
-			<li>
-				<a href="mining.html">Mining</a>
-			</li>
-			<li>
-				<a href="contact.html">Contact</a>
-			</li>
+			<li class="selected"><a href="index.html">Home</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="agriculture.html">Agriculture</a></li>
+			<li><a href="gis.html">GIS</a></li>
+			<li><a href="mining.html">Mining</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</div>
 	<div id="body">
 		<div class="content">
 			<p>Completed a Geographic Information Systems (GIS) program at Fleming College, gaining in-depth knowledge of spatial data analysis, cartography, and geospatial technologies. Developed proficiency in using industry-standard GIS software including ArcGIS Pro, ArcMap, and QGIS for mapping, data visualization, and spatial analysis. Learned to collect, manage, and analyze spatial datasets, including shapefiles, geodatabases, remote sensing imagery, and LiDAR point clouds. Gained hands-on experience in digitizing maps, georeferencing, performing spatial queries, creating 3D visualizations, and interpreting environmental and land-use data. Applied GIS skills to real-world projects, including natural resource management, urban and rural planning, environmental monitoring, and species distribution analysis. Developed strong analytical, problem-solving, and technical skills, as well as the ability to communicate complex spatial information effectively through maps, reports, and presentations.</p>
 			<hr>
+
 			<h3>Skills Developed</h3>
 			<p>Geospatial Data Management & QA/QC: Geodatabase design & Maintenance | Relational & Enterprise Geodatabases | Spatial Data Standardization | Schema Validation | Metadata Documentation | Raster & Vector Data Models | QA/QC Procedures | Positional Accuracy Validation | CAD Data Integration | Coordinate Systems & Projections | PostGIS | Database Workflow Management | Enterprise Data Standards Compliance | Data Quality Assurance Workflows | Spatial Data Cleaning and Preparation </p>
 			<p>Enterprise GIS Platforms: ArcGIS Pro | ArcGIS Desktop (ArcMap) | ArcGIS Enterprise | ArcGIS Server | ArcGIS Online | ArcGIS Portal | Network-Based GIS Environments</p>
@@ -51,39 +41,50 @@
 			<hr>
 
 			<h3>Projects</h3>
-			<h4>&#10148;  Tree Canopy Optimization in the City of Peterborough</h4>
-			<p>• Completed a project with a focus on supporting the City of Peterborough’s objective of increasing urban canopy cover to 35% by 2050.</p>
-			<p>• Worked extensively with LiDAR point cloud data to assess tree canopy height and distribution, conducted spatial analysis to identify priority areas for canopy growth, and created detailed maps to visualize findings.</p>
-			<p>• Utilized ArcGIS platforms to perform geospatial processing, develop interactive dashboards, and communicate results effectively to stakeholders. Gained hands-on experience in applying GIS tools and data visualization techniques to support urban forestry planning and environmental sustainability goals.</p>
-			<p>• Dashboard:  <a href = "https://fleming.maps.arcgis.com/apps/dashboards/8e76638d09554473be46296ae70d95c6">Click here for Dashboard</a></p>
-			<p>• Field Maps:  <a href = "https://fieldmaps.arcgis.app/?itemID=05090707a0c94dd59ec76ffc9209dbcd&referenceContext=open&portalURL=https%3A%2F%2FFleming.maps.arcgis.com">Click here for field maps</a></p>
-			<p>• Tree Planting Planner:  <a href = "https://denniskurian1.github.io/Webapp/">Click here for Tree Planting Planner</a></p>
-            
-			<h4>&#10148;  City data assets of Kawartha Lakes</h4>
+
+			<!-- First Project with Side Media -->
+			<div class="projects-container">
+				<div class="projects-text">
+					<h4>&#10148; Tree Canopy Optimization in the City of Peterborough</h4>
+					<p>• Completed a project with a focus on supporting the City of Peterborough’s objective of increasing urban canopy cover to 35% by 2050.</p>
+					<p>• Worked extensively with LiDAR point cloud data to assess tree canopy height and distribution, conducted spatial analysis to identify priority areas for canopy growth, and created detailed maps to visualize findings.</p>
+					<p>• Utilized ArcGIS platforms to perform geospatial processing, develop interactive dashboards, and communicate results effectively to stakeholders. Gained hands-on experience in applying GIS tools and data visualization techniques to support urban forestry planning and environmental sustainability goals.</p>
+					<p>• Dashboard:  <a href="https://fleming.maps.arcgis.com/apps/dashboards/8e76638d09554473be46296ae70d95c6">Click here for Dashboard</a></p>
+					<p>• Field Maps:  <a href="https://fieldmaps.arcgis.app/?itemID=05090707a0c94dd59ec76ffc9209dbcd&referenceContext=open&portalURL=https%3A%2F%2FFleming.maps.arcgis.com">Click here for field maps</a></p>
+					<p>• Tree Planting Planner:  <a href="https://denniskurian1.github.io/Webapp/">Click here for Tree Planting Planner</a></p>
+				</div>
+				<div class="projects-media">
+					<img src="images/tree-canopy.jpg" alt="Tree Canopy Project">
+					<!-- Optional: <video controls src="videos/tree-canopy.mp4"></video> -->
+				</div>
+			</div>
+
+			<!-- Remaining Projects (Normal Layout) -->
+			<h4>&#10148; City data assets of Kawartha Lakes</h4>
 			<p>• Carried out a project focused on identifying the most efficient methods to collect and display data from the public for reporting on city assets.</p>
 			<p>• Worked extensively with Field Maps and ArcGIS platforms to design and test data collection workflows, while also utilizing Leaflet for interactive mapping.</p> 
 			<p>• Developed web-based solutions to present collected information in a clear and accessible format, ensuring ease of use for both the public and city officials.</p>
 			<p>• Enhanced skills in geospatial data management, web design, and user-focused application development.</p>
-			<p>• Link:   <a href = "https://geolaurajaimes.github.io/geom99gr6/displaydata.html">Website of our project</a></p>
-            
-			<h4>&#10148;  Wind Farm Suitability Analysis in Ottawa</h4>
+			<p>• Link:   <a href="https://geolaurajaimes.github.io/geom99gr6/displaydata.html">Website of our project</a></p>
+
+			<h4>&#10148; Wind Farm Suitability Analysis in Ottawa</h4>
 			<p>• Conducted a Multi-Criteria Decision Analysis (MCDA) to identify suitable locations for windfarm development in Ottawa.</p>
 			<p>• Collected and integrated diverse spatial datasets, including land use, elevation, wind speed, proximity to transmission lines, and environmental constraints.</p>
 			<p>• Applied weighted overlay and spatial analysis techniques in ArcGIS to evaluate site suitability and generate suitability maps.</p>
 			<p>• Produced visual outputs and reports to support renewable energy planning, gaining experience in spatial decision-making, data integration, and sustainability-focused analysis.</p>
-			<p>• Link:   <a href = "https://storymaps.arcgis.com/stories/52e154f8c7bc42f8810c0f91dea048ee">Link to Story Map</a></p>
-			
-			<h4>&#10148;  Species at Risk Habitat Mapping in Ontario</h4>
+			<p>• Link:   <a href="https://storymaps.arcgis.com/stories/52e154f8c7bc42f8810c0f91dea048ee">Link to Story Map</a></p>
+
+			<h4>&#10148; Species at Risk Habitat Mapping in Ontario</h4>
 			<p>• Compiled, standardised and managed spatial datasets for species at risk (SAR), improving data consistency and supporting accurate habitat mapping and conservation planning.</p>
             <p>• Performed spatial analysis integrating remotely sensed imagery and SAR datasets to identify priority habitats, supporting conservation planning decisions.</p>
 			<p>• Produced cartographic maps and summary outputs that clearly communicated SAR distribution, supporting stewardship planning and informed conservation decision-making.</p>
 			<p>• Documented and maintained metadata for spatial datasets to ensure data integrity, traceability, and longterm usability.</p>
 			<hr>
-			
+
 			<h3>Volunteer Experience</h3>
 
 			<h4>&#10148; GIS & Spatial Data Volunteer - Tomkulak Consortium (Present) </h4>
-			<p>• Collaborated with an international GIS and data team to support spatial data management and environmental geospatial workflows.
+			<p>• Collaborated with an international GIS and data team to support spatial data management and environmental geospatial workflows.</p>
             <p>• Performed SQL-based spatial queries and database operations to support data analysis and spatial data preparation tasks.</p>
             <p>• Worked within a PostGIS enterprise environment to maintain, query, and validate spatial datasets.</p>
             <p>• Applied QA/QC validation procedures to ensure positional accuracy, attribute completeness, and overall dataset reliability before system integration.</p>
@@ -91,75 +92,44 @@
             <p>• Assisted in spatial data cleaning, transformation, and standardization for multi-source dataset integration.</p>
             <p>• Contributed to maintaining high-quality geospatial datasets for collaborative project use and decision-making support.</p>
             <p>• Communicated technical GIS findings and database outputs within a remote, multidisciplinary team environment.</p>
- 
+
             <h4>&#10148; Map Editor – The National Map Corps (USGS) (Present) </h4>
 			<p>• Contribute to the accuracy of national geospatial datasets by editing, validating, and updating structure points such as schools, hospitals, and other landmarks. </p>
 			<p>• Ensure compliance with USGS data standards to improve positional accuracy and data consistency.</p>
 			<p>• Demonstrate attention to detail when reviewing, correcting, and documenting spatial features, reinforcing strong data stewardship practices.</p>
-
 
 			<h3>Certifications</h3>
 			<p>Creating and sharing content in ArcGIS Online – ESRI</p>
 			<p>ArcGIS Online basics – ESRI</p>
 			<p>Introduction to coordinate systems – ESRI</p>
 			<p>Learning Relational Databases – LinkedIn</p>
+
 			<div class="site-footer">
-  <div class="footer-container">
-
-    <!-- Pages Section -->
-    <div class="footer-section">
-      
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="agriculture.html">Agriculture</a></li>
-        <li><a href="gis.html">GIS</a></li>
-        <li><a href="mining.html">Mining</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-
-    <!-- Contact Section -->
-    <div class="footer-section contact-icons">
-    
-      <div class="icons">
-        <a href="contact.html"><img src="images/email-icon.png" alt="Email"></a>
-        <a href="contact.html"><img src="images/phone-icon.png" alt="Phone"></a>
-        <a href="contact.html"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- Footer Bottom -->
-  <div class="footer-bottom">
-    &copy; 2025 Nuthan Abhiram Chenelli. All rights reserved.
-  </div>
-			<!-- <p>
-				This website template has been designed by freewebsitetemplates.com for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">forums</a>.
-			</p>
-			<div class="body">
-				<div>
-					<h3>Military &amp; Navy training experts</h3>
-					<h1>academy</h1>
-					<p>
-						This website template has been designed by <a href="http://www.freewebsitetemplates.com">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
-					</p>
+				<div class="footer-container">
+					<div class="footer-section">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="resume.html">Resume</a></li>
+							<li><a href="agriculture.html">Agriculture</a></li>
+							<li><a href="gis.html">GIS</a></li>
+							<li><a href="mining.html">Mining</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<div class="footer-section contact-icons">
+						<div class="icons">
+							<a href="contact.html"><img src="images/email-icon.png" alt="Email"></a>
+							<a href="contact.html"><img src="images/phone-icon.png" alt="Phone"></a>
+							<a href="contact.html"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					&copy; 2025 Nuthan Abhiram Chenelli. All rights reserved.
 				</div>
 			</div>
-			<div class="section">
-				<p>
-					<b>We Have Free Templates for Everyone.</b> Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What’s more, they’re absolutely free! You can do a lot with them. You can modify them. You can use them to design websites for clients, so long as you agree with the <a href="http://www.freewebsitetemplates.com/about/terms">Terms of Use</a>. You can even remove all our links if you want to.
-				</p>
-				<p>
-					<b>Looking for more templates?</b> Just browse through all our <a href="http://www.freewebsitetemplates.com">Free Website Templates</a> and find what you’re looking for. But if you don’t find any website template you can use, you can try our <a href="http://www.freewebsitetemplates.com/freewebdesign/">Free Web Design</a> service and tell us all about it. Maybe you’re looking for something different, something special. And we love the challenge of doing something different and something special.
-				</p>
-				<p>
-					<b>Be Part of Our Community.</b> If you’re experiencing issues and concerns about this website template, join the discussion <a href="http://www.freewebsitetemplates.com/forums/">on our forum</a> and meet other people in the community who share the same interests with you.
-				</p>
-			</div>
-		</div> -->
-	</div>
+
+		</div>
 	</div>
 </body>
 </html>

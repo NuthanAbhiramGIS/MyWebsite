@@ -354,3 +354,36 @@ hr {
     gap: 10px;
   }
 }
+
+/* --- First Project Side Media Styles --- */
+.projects-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.projects-container .projects-text {
+  flex: 2;
+}
+
+.projects-container .projects-media {
+  flex: 1;
+}
+
+.projects-container .projects-media img,
+.projects-container .projects-media video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Responsive: Stack on small screens */
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

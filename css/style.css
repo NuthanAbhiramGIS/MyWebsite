@@ -388,6 +388,7 @@ hr {
     flex-direction: column;
     gap: 20px;
 }
+}
 
 /* ===== Image Animation Class (added) ===== */
 .animated-img {
